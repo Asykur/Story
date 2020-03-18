@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Story</string>
+    <string name="description">Description :</string>
+    <string name="comment">Comment</string>
+</resources>

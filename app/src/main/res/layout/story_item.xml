@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/dimens_10dp"
+    android:id="@+id/areaItem"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:text="Title"
+        android:textSize="@dimen/text_18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/tvItemTitle"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemTitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:text="Score"
+        android:textColor="@color/black"
+        android:id="@+id/tvItemScore"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemScore"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:text="Comment"
+        android:textColor="@color/black"
+        android:id="@+id/tvItemComment"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
